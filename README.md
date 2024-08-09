@@ -19,7 +19,7 @@ input_file = 'input_sequences.txt.gz'
 
 output_file = 'input_sequences-REVERSE-COMPLEMENTED.txt.gz'
 
-process_barcode_file(input_file, output_file)
+process_barcode_file (input_file, output_file)
 
 ### 2. Random Reverse Complement Verification
 Filename: verify_reverse_complement.py
@@ -33,10 +33,13 @@ input_file = 'input_sequences.txt.gz'
 
 output_file = 'input_sequences-REVERSE-COMPLEMENTED.txt.gz'
 
-if verify_random_reverse_complements(input_file, output_file):
-    print("All sequences verified successfully.")
+if verify_random_reverse_complements (input_file, output_file):
+
+    print ("All sequences verified successfully.")
+    
 else:
-    print("There were errors in the sequences.")
+
+    print ("There were errors in the sequences.")
 
 ## Requirements
 •	gzip (part of Python's standard library)
