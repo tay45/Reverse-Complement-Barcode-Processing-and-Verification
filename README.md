@@ -14,6 +14,7 @@ Reads a gzip-compressed text file containing DNA barcode sequences, processes ea
 
 ### Usage Example:
 Example script usage for reverse complement processing
+
 input_file = 'input_sequences.txt.gz'
 
 output_file = 'input_sequences-REVERSE-COMPLEMENTED.txt.gz'
@@ -27,6 +28,7 @@ This script is designed to verify the integrity of the reverse complement sequen
 
 ### Usage Example:
 Example script usage for verifying reverse complements
+
 input_file = 'input_sequences.txt.gz'
 
 output_file = 'input_sequences-REVERSE-COMPLEMENTED.txt.gz'
